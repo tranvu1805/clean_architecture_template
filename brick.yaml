@@ -14,7 +14,6 @@ version: 0.1.0+1
 # It includes the version of mason that the brick requires.
 environment:
   mason: ^0.1.0
-
 # Variables specify dynamic values that your brick depends on.
 # Zero or more variables can be specified for a given brick.
 # Each variable has:
@@ -30,4 +29,4 @@ vars:
     type: string
     description: The project name (same as in pubspec.yaml)
     prompt: Enter your Flutter project name
-    default: app
+    default: example_project

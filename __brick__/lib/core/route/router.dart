@@ -1,6 +1,14 @@
-import 'package:{{project_name}}/main.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
+
+import 'app_shell.dart';
+import 'routes.dart';
+
+
+final GlobalKey<NavigatorState> rootNavigatorKey = GlobalKey<NavigatorState>(
+  debugLabel: 'root',
+);
 
 GoRouter router() {
   return GoRouter(
@@ -16,11 +24,6 @@ GoRouter router() {
         branches: [
           StatefulShellBranch(
             routes: [
-              GoRoute(
-                path: Routes.home,
-                builder: (context, state) => const HomePage(),
-                routes: [],
-              )
             ],
           ),
         ],

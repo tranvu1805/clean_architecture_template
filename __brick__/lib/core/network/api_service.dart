@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:{{project_name}}/core/error/exceptions.dart';
-import 'package:{{project_name}}/core/error/failure.dart';
-import 'package:{{project_name}}/core/utils/method/type_definition.dart';
+import 'package:{{project_name}}/core/errors/exceptions.dart';
+import 'package:{{project_name}}/core/errors/failures.dart';
+import 'package:{{project_name}}/core/utils/helper/type_definition.dart';
 import 'package:fpdart/fpdart.dart';
 
 class ApiHelper {

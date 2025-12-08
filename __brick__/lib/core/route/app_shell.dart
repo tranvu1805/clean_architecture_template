@@ -1,6 +1,4 @@
-import 'dart:io';
-
-import 'package:app_tongmon_flutter/core/constants/color_app.dart';
+import 'package:{{project_name}}/core/constants/colors_app.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 

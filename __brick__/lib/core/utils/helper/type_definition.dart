@@ -1,4 +1,4 @@
-import 'package:{{project_name}}/core/error/failure.dart';
+import 'package:{{project_name}}/core/errors/failures.dart';
 import 'package:fpdart/fpdart.dart';
 
 typedef ResultFuture<T> = Future<Either<Failure, T>>;

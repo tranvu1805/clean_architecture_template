@@ -1,4 +1,4 @@
-import 'package:{{project_name}}/core/constants/color_app.dart';
+import 'package:{{project_name}}/core/constants/colors_app.dart';
 import 'package:flutter/material.dart';
 
 final appTheme = ThemeData(

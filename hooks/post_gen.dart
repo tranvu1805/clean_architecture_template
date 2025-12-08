@@ -1,10 +1,12 @@
 import 'dart:io';
+import 'package:mason/mason.dart';
+
 
 void run(HookContext context) async {
   final progress = context.logger.progress('Installing packages...');
 
   final deps = [
-    'bloc',
+    'flutter_bloc',
     'equatable',
     'http',
     'get_it',

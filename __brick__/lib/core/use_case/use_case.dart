@@ -1,4 +1,4 @@
-import 'package:{{project_name}}/core/utils/method/type_definition.dart';
+import 'package:{{project_name}}/core/utils/helper/type_definition.dart';
 
 abstract interface class UseCase<T> {
   ResultFuture<T> call();
