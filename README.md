@@ -187,7 +187,7 @@ class GetUserUseCase implements UseCaseWithParams<User, String> {
 ## Related Bricks
 
 Consider using these complementary bricks:
-- [**feature**](https://github.com/yourusername/feature_brick.git) - Generate complete feature modules with domain, data, and presentation layers
+- [**feature**](https://github.com/tranvu1805/feature_add.git) - Generate complete feature modules with domain, data, and presentation layers
 
 ## Example Project Structure
 
