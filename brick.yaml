@@ -1,4 +1,4 @@
-name: clean_architecture_template
+name: template
 description: A new brick created with the Mason CLI.
 
 # The following defines the brick repository url.
@@ -24,9 +24,9 @@ environment:
 #  * an optional prompt phrase used when asking for the variable
 #  * a list of values (enums only)
 #  * an optional separator (list only)
-vars:
-  project_name:
-    type: string
-    description: The project name (same as in pubspec.yaml)
-    prompt: Enter your Flutter project name
-    default: example_project
+#vars:
+#  project_name:
+#    type: string
+#    description: The project name (same as in pubspec.yaml)
+#    prompt: Enter your Flutter project name
+#    default: example_project

@@ -13,7 +13,6 @@ void run(HookContext context) async {
     'go_router',
     'fpdart',
     'flutter_launcher_icons',
-    'bloc_lint',
   ];
 
   final devDeps = [

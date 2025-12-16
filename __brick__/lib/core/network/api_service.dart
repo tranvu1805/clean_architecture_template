@@ -5,7 +5,7 @@ import 'package:{{project_name}}/core/errors/failures.dart';
 import 'package:{{project_name}}/core/utils/helper/type_definition.dart';
 import 'package:fpdart/fpdart.dart';
 
-class ApiHelper {
+class ApiService {
   static ResultFuture<T> handle<T>(Future<T> Function() action) async {
     try {
       final result = await action().timeout(const Duration(seconds: 10));
